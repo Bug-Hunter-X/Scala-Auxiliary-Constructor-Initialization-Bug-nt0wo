@@ -1,0 +1,1 @@
+This repository demonstrates a common Scala bug related to auxiliary constructors. The `MyClass` class has an auxiliary constructor that doesn't explicitly initialize the `x` variable, resulting in an incorrect value for `x`. The solution involves explicitly calling the primary constructor with an appropriate value for `x` within the auxiliary constructor.
